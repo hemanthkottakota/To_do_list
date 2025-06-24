@@ -1,6 +1,5 @@
 #main{
     border: 1px solid black;
-    align-items: center;
     margin: 10% 38% 10% 38%;
     padding-top: 0.5%;
     padding-bottom: 2%;
@@ -11,14 +10,16 @@
     border-radius: 2vh;
 }
 button{
-    border-radius: 1vh; 
+    border-radius: 1vh;
+    cursor: pointer; 
 }
-#innerMain{
+
+.header{
+    margin-top:1%;
     text-align: center;
 }
-#header{
-    margin-top:1%;
+#item{
+    
+    padding: 1% 21% 1% 21%;
 }
-#item1{
-    border: 1px solid black;
-}
+
